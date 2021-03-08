@@ -1,8 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Homepage from "./Homepage/Homepage"
+import Navbar from "./Navbar/Navbar"
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <>
+    <Navbar />
+    <Router>
+      <Switch>
+        <Route exact={true} path="/">
+          <Homepage />
+        </Route>
+      </Switch>
+    </Router>
+    </>
   );
 }
 
