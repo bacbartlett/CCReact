@@ -1,0 +1,42 @@
+.PickCityDiv{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 20px;
+    width: 100%;
+}
+
+.left2columns{
+    display: grid;
+    grid-template-rows: 1fr 1.83fr;
+    width: 100%;
+}
+
+.leftquad{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1.33fr 1fr;
+}
+
+.leftquad--leftside{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1.25fr 1fr;
+}
+
+.leftquad--rightside{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1.1fr;
+}
+
+.rightcolumn{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1.35fr;
+}
+
+.cityblockcontianer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

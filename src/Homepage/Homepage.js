@@ -2,6 +2,7 @@ import React from "react"
 import Hero from "./Hero/Hero"
 import "./Homepage.css"
 import BoxButtonSet from "./ButtonBoxSet/ButtonBoxSet"
+import PickCity from "./PickCity/PickCity"
 
 const Homepage = (props) => {
     const buttonboxobjects = []
@@ -28,6 +29,9 @@ const Homepage = (props) => {
                 <div className="S4--header--div">
                     <h1 className="S4--header">Find Your City</h1>
                 </div>
+            </section>
+            <section>
+                <PickCity />
             </section>
             <section>
                 <div style={{height: "100px"}}>
