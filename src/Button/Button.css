@@ -1,0 +1,9 @@
+.themedButton{
+    padding: 10px 20px;
+    border-radius: 5em;
+    min-width: 50%;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 700;
+    cursor: pointer;
+}

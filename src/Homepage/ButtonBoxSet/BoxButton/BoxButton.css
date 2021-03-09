@@ -1,0 +1,31 @@
+.buttonBox{
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+}
+
+.buttonBox--title{
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .01em;
+    text-transform: none;
+    line-height: 1em;
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 40px;
+}
+
+.buttonBox--buttonDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+    

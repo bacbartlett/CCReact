@@ -1,7 +1,16 @@
+@import "./normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body{
     font-family: "Helvetica Neue",Arial,sans-serif;
+    color: rgba(0,0,0,.8);
 }
 
 .pointer{
     cursor: pointer;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }
