@@ -1,8 +1,11 @@
 import React from "react"
+import Hero from "./Hero/Hero"
 
 const Homepage = (props) => {
     return(
-        <h1>Welcome to the home page</h1>
+        <>
+            <Hero />
+        </>
     )
 }
 

@@ -1,11 +1,17 @@
 .homepage__hero{
     width: 100%;
-    padding-top: 56.25%;
+    display: flex;
+    justify-content: center;
 }
 
 .homepage__hero--image{
-    background-image: url("Video_Thumb.png");
+    background-image: url("./Video_Thumb.png");
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    width: 95%;
+    padding-top: 56.25%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
 }
