@@ -17,6 +17,10 @@
     height: 125px;
 }
 
+.navBar__item{
+    cursor: pointer;
+}
+
 .navBar__link{
     font-weight: 400;
     font-size: 16px;
@@ -30,5 +34,9 @@
 }
 
 .navBar__activeGroup:hover{
+    color: rgba(0,0,0,.6);
+}
+
+.navBar__pseduoHover{
     color: rgba(0,0,0,.6);
 }

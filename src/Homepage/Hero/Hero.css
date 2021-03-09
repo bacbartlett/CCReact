@@ -1,0 +1,11 @@
+.homepage__hero{
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.homepage__hero--image{
+    background-image: url("Video_Thumb.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
