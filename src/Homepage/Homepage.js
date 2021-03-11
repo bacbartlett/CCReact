@@ -3,6 +3,7 @@ import Hero from "./Hero/Hero"
 import "./Homepage.css"
 import BoxButtonSet from "./ButtonBoxSet/ButtonBoxSet"
 import PickCity from "./PickCity/PickCity"
+import HubExplaination from "./HubExplaination/HubExplaination"
 
 const Homepage = (props) => {
     const buttonboxobjects = []
@@ -33,7 +34,11 @@ const Homepage = (props) => {
             <section>
                 <PickCity />
             </section>
+                <HubExplaination />
             <section>
+            <section>
+                
+            </section>
                 <div style={{height: "100px"}}>
 
                 </div>

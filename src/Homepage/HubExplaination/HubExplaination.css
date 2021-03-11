@@ -1,0 +1,52 @@
+.HubExplainationContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 68px;
+}
+
+.HubExplainationPhoto{
+    width: 28.3%;
+}
+
+.HubExplainationContent{
+    width: 36.1%;
+    margin-left: 10px;
+}
+
+.HubExplaination--Title{
+    color: #257460;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -.06em;
+    text-transform: none;
+    line-height: 2.1em;
+    font-size: 17px;
+}
+
+.HubExplaination--Text{
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: none;
+    line-height: 2.0em;
+    color: rgba(112,112,112,.79);
+    font-size: 17px;
+}
+
+.HubExplaination--TextMargin{
+    margin: -3px 0;
+}
+
+.HubExplaination--blackbutton{
+    margin-top: 35px;
+    color: black;
+    border: 2px solid black;
+    width: 50%;
+    letter-spacing: 3px;
+    padding: 5px 17px;
+    font-weight: 550;
+    font-size: 16px;
+}

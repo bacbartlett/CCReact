@@ -30,6 +30,8 @@
 
 .boxbuttonbutton{
     border: 2px solid white;
+    min-width: 50%;
+    padding: 10px 20px;
 }
 
 .boxbuttonbutton:hover{

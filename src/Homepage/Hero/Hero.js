@@ -29,7 +29,7 @@ const Hero = (props) => {
 
     return(
         <div className="homepage__hero">
-            {video? <iframe width={width} height={height} src="https://www.youtube.com/embed/BRwu1iJIYI0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> : 
+            {video? <iframe style={{paddingBottom: "70px"}} width={width} height={height} src="https://www.youtube.com/embed/BRwu1iJIYI0?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> : 
             <div onClick={turnToVideo} className="homepage__hero--image" ref={heroImage}>
                 <div className="pointer">
                     <PlayArrowRoundedIcon style={{position: "relative", bottom: moveUp, color: "white", fontSize: 100}} />

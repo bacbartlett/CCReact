@@ -1,13 +1,23 @@
 .CityBlock{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     color: white;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    margin: 17px;
 }
 
 .CityBlock--name{
-    font-size: 30;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .01em;
+    text-transform: none;
+    line-height: .4em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

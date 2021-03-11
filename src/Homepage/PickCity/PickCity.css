@@ -1,13 +1,18 @@
+.PickCityDivContainer{
+    width: 100%;
+    display: flex;
+}
+
 .PickCityDiv{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin: 0 20px;
+    grid-template-columns: 2.347fr 1fr;
+    margin: 0 100px;
     width: 100%;
 }
 
 .left2columns{
     display: grid;
-    grid-template-rows: 1fr 1.83fr;
+    grid-template-rows: 1fr 1.8835fr;
     width: 100%;
 }
 
@@ -32,7 +37,7 @@
 .rightcolumn{
     display: grid;
     width: 100%;
-    grid-template-rows: 1fr 1.35fr;
+    grid-template-rows: 1fr 1.3472fr;
 }
 
 .cityblockcontianer{
