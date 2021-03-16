@@ -4,6 +4,7 @@ import "./Homepage.css"
 import BoxButtonSet from "./ButtonBoxSet/ButtonBoxSet"
 import PickCity from "./PickCity/PickCity"
 import HubExplaination from "./HubExplaination/HubExplaination"
+import NewsLetterSignUp from "./NewletterSignUp/NewsLetterSignUp"
 
 const Homepage = (props) => {
     const buttonboxobjects = []
@@ -37,7 +38,7 @@ const Homepage = (props) => {
                 <HubExplaination />
             <section>
             <section>
-                
+                <NewsLetterSignUp />
             </section>
                 <div style={{height: "100px"}}>
 
