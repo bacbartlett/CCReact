@@ -23,7 +23,7 @@ const NewsLetterSignUp = () => {
                 <input className={"NewsLetterSignUp--Input NewsLetterSignUp--Form__Spacer"} onChange={updateLastName} value={lastName} type="text" placeholder="Last Name" autoComplete={true} />
                 <input className={"NewsLetterSignUp--Input NewsLetterSignUp--Form__Spacer"} onChange={updateEmail} value={email} type="email" placeholder="Email Address" autoComplete={true} />
                 <div className="NewsLetterSignUp--Button NewsLetterSignUp--Form__Spacer">
-                    Sign Up
+                    SIGN UP
                 </div>
             </div>
             <div className="NewsLetterSignUp--Footer">

@@ -8,6 +8,7 @@
 }
 
 .NewsLetterSignUp--Title{
+    margin-top: 17px;
     color: #525252;
     margin-bottom: 0px;
     display: flex;
@@ -16,13 +17,18 @@
 }
 
 .NewsLetterSignUp--h2{
+    margin-top: 17px;
     margin: 0;
     padding: 0;
+    font-weight: 700;
 }
 
 .NewsLetterSignUp--Subheader{
     display: flex;
     justify-content: center;
+    color: rgba(112,112,112,.5);
+    margin-top: -20px;
+    font-weight: 700;
 }
 
 
@@ -47,8 +53,29 @@
     color: rgba(0,0,0,.12);
 }
 
+.NewsLetterSignUp--Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #707070;
+    padding: 15px 37.7px;
+    color: #707070;
+    font-size: 15px;
+    cursor: pointer;
+    transition-duration: .25s;
+}
+
+.NewsLetterSignUp--Button:hover{
+    color: white;
+    background-color: #707070;
+}
+
 .NewsLetterSignUp--Footer{
     display: flex;
     justify-content: center;
+    color: rgba(112,112,112,.5);
+    opacity: .8;
+    font-size: 13px;
+    letter-spacing: .04em;
 }
 
