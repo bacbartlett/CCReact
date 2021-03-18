@@ -7,6 +7,7 @@ import HubExplaination from "./HubExplaination/HubExplaination"
 import NewsLetterSignUp from "./NewletterSignUp/NewsLetterSignUp"
 import DoubleButtonSection from "./DoubleButtonSection/DoubleButtonSection"
 import ReadyToHelpParalax from "./ReadyToHelpParalax/ReadyToHelpParalax"
+import FeaturedIn from "./FeaturedIn/FeaturedIn"
 
 const Homepage = (props) => {
     const buttonboxobjects = []
@@ -47,6 +48,9 @@ const Homepage = (props) => {
             </section>
             <section>
                 <ReadyToHelpParalax />
+            </section>
+            <section>
+                <FeaturedIn />
             </section>
                 <div style={{height: "900px"}}>
 

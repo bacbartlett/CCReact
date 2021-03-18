@@ -27,6 +27,7 @@
     font-weight: 700;
     height: 21px;
     transition: .2s;
+    cursor: pointer;
 }
 
 .DoubleButtonSection--Button:hover{

@@ -1,0 +1,20 @@
+.FeaturedIn--Div{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.FeaturedIn--h1Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FeaturedIn--Container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4.3fr 3fr 1fr 1.5fr 1fr 1.5fr 1fr 1.5fr 5.5fr;
+}
+
+.FeaturedIn--h1{
+    font-family: 'Raleway', sans-serif;
+}
