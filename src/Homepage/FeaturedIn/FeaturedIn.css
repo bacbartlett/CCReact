@@ -18,3 +18,7 @@
 .FeaturedIn--h1{
     font-family: 'Raleway', sans-serif;
 }
+
+.FeaturedIn--Image{
+    cursor: pointer;
+}

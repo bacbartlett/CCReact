@@ -1,10 +1,17 @@
 import React, { useEffect, useRef, useState } from "react"
+import { useHistory } from "react-router"
 import "./ReadyToHelpParalax.css"
 
 const ReadyToHelpParalax = props => {
     const div = useRef(null)
     const [height, setHeight] = useState(0)
     const [backgroundPosition, setBackgroundPostion] = useState(0)
+
+    const history = useHistory()
+
+    const joinToday = e => history.push("/join-us")
+
+    const contactUs = e => history.push("/contact-us")
 
     useEffect(()=> {
         const calculateHeight = () => {
@@ -37,10 +44,10 @@ const ReadyToHelpParalax = props => {
                 <h3>READY TO HELP?</h3>
             </div>
             <div className="TRHP--ButtonDiv">
-                <div className="TRHP--Button" >
+                <div onClick={joinToday} className="TRHP--Button" >
                     JOIN TODAY
                 </div>
-                <div className="TRHP--Button">
+                <div onClick={contactUs} className="TRHP--Button">
                     CONTACT US
                 </div>
             </div>

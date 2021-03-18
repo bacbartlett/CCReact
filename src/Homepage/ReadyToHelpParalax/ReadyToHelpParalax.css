@@ -36,6 +36,7 @@
     height: 21px;
     transition: .2s;
     margin: 17px 0;
+    cursor: pointer;
 }
 
 .TRHP--Button:hover{
