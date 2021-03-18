@@ -1,0 +1,44 @@
+.ReadyToHelpParalaxDiv{
+    background-image: url("./portland-paralax.jpg");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.TRHP--Title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.TRHP--ButtonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.TRHP--Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    color: white;
+    border: 2px solid white;
+    padding: 25px 46px;
+    border-radius: 300px;
+    font-size: 18px;
+    letter-spacing: .24em;
+    font-weight: 700;
+    height: 21px;
+    transition: .2s;
+    margin: 17px 0;
+}
+
+.TRHP--Button:hover{
+    color: black;
+    background-color: white;
+}

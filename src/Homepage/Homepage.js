@@ -6,6 +6,7 @@ import PickCity from "./PickCity/PickCity"
 import HubExplaination from "./HubExplaination/HubExplaination"
 import NewsLetterSignUp from "./NewletterSignUp/NewsLetterSignUp"
 import DoubleButtonSection from "./DoubleButtonSection/DoubleButtonSection"
+import ReadyToHelpParalax from "./ReadyToHelpParalax/ReadyToHelpParalax"
 
 const Homepage = (props) => {
     const buttonboxobjects = []
@@ -44,7 +45,10 @@ const Homepage = (props) => {
             <section>
                 <DoubleButtonSection />
             </section>
-                <div style={{height: "100px"}}>
+            <section>
+                <ReadyToHelpParalax />
+            </section>
+                <div style={{height: "900px"}}>
 
                 </div>
             </section>
