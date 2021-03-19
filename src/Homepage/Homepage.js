@@ -40,7 +40,6 @@ const Homepage = (props) => {
             </section>
                 <HubExplaination />
             <section>
-            <section>
                 <NewsLetterSignUp />
             </section>
             <section>
@@ -52,10 +51,12 @@ const Homepage = (props) => {
             <section>
                 <FeaturedIn />
             </section>
-                <div style={{height: "900px"}}>
-
-                </div>
+            <section>
+            
             </section>
+            <div style={{height: "900px"}}>
+
+            </div>
         </>
     )
 }
